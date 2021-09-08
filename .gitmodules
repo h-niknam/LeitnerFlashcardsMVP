@@ -1,3 +1,6 @@
 [submodule "leitnerflashcardscore"]
 	path = leitnerflashcardscore
 	url = https://git.parscoders.com/hniknam74/leitnerflashcardscore.git
+[submodule "LeitnerFlashcardsCore"]
+	path = LeitnerFlashcardsCore
+	url = https://github.com/h-niknam/LeitnerFlashcardsCore.git
