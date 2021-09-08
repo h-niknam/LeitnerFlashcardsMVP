@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/boxListFragment">
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.categories.CategoriesFragment"
+        android:label="@string/fragment_category_title"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/boxListFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.box.BoxListFragment"
+        android:label="@string/fragment_home_title"
+        tools:layout="@layout/fragment_box_list" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.profile.ProfileFragment"
+        android:label="@string/fragment_home_title"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

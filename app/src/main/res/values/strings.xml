@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LeitnerFlashCardsMVP</string>
+
+    <string name="info_toKnow">To know</string>
+    <string name="info_known">Known</string>
+    <string name="info_learned">Learned</string>
+
+    <string name="fragment_home_title">Home</string>
+    <string name="fragment_flashcard_title">Flash cards</string>
+    <string name="fragment_study_title">Study</string>
+    <string name="fragment_category_title">Categories</string>
+    <string name="fragment_profile_title">Profile</string>
+    <string name="fragment_add_title">Add / Edit</string>
+    <string name="fragment_words_title">Words List</string>
+
+    <string name="literal_edit">Edit</string>
+    <string name="literal_delete">Delete</string>
+    <string name="literal_add">Add</string>
+    <string name="literal_study">Study</string>
+    <string name="literal_box">Box</string>
+
+    <string name="alert_delete_description">Are you sure you want to delete $word </string>
+    <string name="msg_add_description">Word added to the box successfully!</string>
+    <string name="msg_delete_description">Word deleted from box successfully!</string>
+    <string name="msg_edit_description">Word Edited successfully!</string>
+    <string name="msg_finish_study">"You finished all the flashcards for today :))"</string>
+
+    <string name="button_know">Got it</string>
+    <string name="button_dont_know">Study again</string>
+
+    <string name="level_all">All</string>
+    <string name="level_basic">Basic</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="level_advanced">Advanced</string>
+
+</resources>

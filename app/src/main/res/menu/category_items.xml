@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all"
+        android:title="@string/level_all" />
+    <item
+        android:id="@+id/basic"
+        android:title="@string/level_basic" />
+    <item
+        android:id="@+id/intermediate"
+        android:title="@string/level_intermediate" />
+    <item
+        android:id="@+id/advanced"
+        android:title="@string/level_advanced" />
+</menu>

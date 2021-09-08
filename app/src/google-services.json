@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "763487904441",
+    "project_id": "leitnerflashcards",
+    "storage_bucket": "leitnerflashcards.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763487904441:android:e601815c49967d0b81f168",
+        "android_client_info": {
+          "package_name": "com.nikapps.leitnerflashcardmvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763487904441-01j1g58gem7e0ak5hhp32vnemkqtbp12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUr6Q7kjB6uuQt7BZoLBRhlWa2gdiaaUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763487904441-01j1g58gem7e0ak5hhp32vnemkqtbp12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763487904441:android:b0e56b52e0e8883481f168",
+        "android_client_info": {
+          "package_name": "com.nikapps.leitnerflashcardmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763487904441-01j1g58gem7e0ak5hhp32vnemkqtbp12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUr6Q7kjB6uuQt7BZoLBRhlWa2gdiaaUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763487904441-01j1g58gem7e0ak5hhp32vnemkqtbp12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

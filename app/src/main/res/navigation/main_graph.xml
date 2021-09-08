@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/wordListFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.words.WordListFragment"
+        android:label="@string/fragment_words_title"
+        tools:layout="@layout/fragment_word_list">
+        <argument
+            android:name="category_id"
+            android:defaultValue="0"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFlashCardFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.flashcard.add.AddFlashCardFragment"
+        android:label="@string/fragment_add_title"
+        tools:layout="@layout/fragment_add_flash_card">
+        <argument
+            android:name="flashCard"
+            android:defaultValue="@null"
+            app:argType="com.nikapps.leitnerflashcardsmvp.domain.model.FlashCard"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/flashCardListFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.flashcard.list.FlashCardListFragment"
+        android:label="@string/fragment_flashcard_title"
+        tools:layout="@layout/fragment_flash_card_list">
+        <argument
+            android:name="boxNumber"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_flashCardListFragment_to_addFlashCardFragment"
+            app:destination="@id/addFlashCardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studyFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.study.StudyFragment"
+        android:label="@string/fragment_study_title"
+        tools:layout="@layout/fragment_study">
+        <argument
+            android:name="boxNumber"
+            android:defaultValue="1"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nikapps.leitnerflashcardsmvp.presentation.home.HomeFragment"
+        android:label="@string/fragment_home_title"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_studyFragment"
+            app:destination="@id/studyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addFlashCardFragment"
+            app:destination="@id/addFlashCardFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_flashCardListFragment"
+            app:destination="@id/flashCardListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_wordListFragment"
+            app:destination="@id/wordListFragment" />
+    </fragment>
+</navigation>

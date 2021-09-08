@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_radius">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="top_corner_4">
+        <item name="cornerSizeTopLeft">4dp</item>
+        <item name="cornerSizeTopRight">4dp</item>
+    </style>
+
+    <style name="box_line">
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+
+    <style name="corner8">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="primary_button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">#009BDE</item>
+        <item name="shapeAppearanceOverlay">@style/button_radius</item>
+    </style>
+
+    <style name="label" parent="Widget.MaterialComponents.TextView">
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="primary_text" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button_correct" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_to_know</item>
+        <item name="android:textColor">@color/color_to_know</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="button_wrong" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/red_700</item>
+        <item name="android:textColor">@color/red_700</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="icon_play">
+        <item name="android:tint">@color/color_tint_icon_play_sound</item>
+    </style>
+
+</resources>
